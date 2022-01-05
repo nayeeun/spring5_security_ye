@@ -12,6 +12,7 @@
 		<intercept-url pattern="/security/member" access="hasRole('ROLE_MEMBER')" />
 		<intercept-url pattern="/security/admin" access="hasRole('ROLE_ADMIN')" />
 		
+		
 		<!-- 로그인 디폴트(기본 로그인페이지) : <form-login/> -->
 		<!-- 로그인 페이지 커스텀화 -->
       	<form-login login-page="/login/loginForm"

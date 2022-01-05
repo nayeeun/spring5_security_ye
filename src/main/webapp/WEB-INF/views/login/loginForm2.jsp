@@ -26,11 +26,11 @@
     			
 	          <div class="form-group">
 	              <label for="exampleDropdownFormEmail1">ID</label>
-	              <input type="text" class="form-control" name="username" placeholder="example">
+	              <input type="text" class="form-control" name="id" placeholder="example">
 	          </div>
 	          <div class="form-group">
 	              <label for="exampleDropdownFormPassword1">Password</label>
-	              <input type="password" class="form-control" name="pw" placeholder="Password">
+	              <input type="password" class="form-control" name="password" placeholder="Password">
 	          </div>
 	          <div class="form-check">
 	              <label class="form-check-label">

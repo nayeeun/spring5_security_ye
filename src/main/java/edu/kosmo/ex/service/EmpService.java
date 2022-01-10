@@ -15,9 +15,20 @@ public class EmpService {
 		   
 	@Inject
 	private EmpMapper empMapper;
+	
+	/*
 	public EmpVO getUser(String empNo) { 
 		log.info("readUser...");
 		return empMapper.readUser(empNo);
-	}
+	}*/
+	
+	public EmpVO getUser(String ename){
+		   log.info("readUser .. ");
+		      
+		   EmpVO empVO = empMapper.readUser(ename);
+		   empVO.setAuthList(empMapper.readAuthority(ename));
+		      
+		   return empVO;
+		}
 }
 
